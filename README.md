@@ -7,7 +7,8 @@ Allows for individual GPOs to be reported during a test since LE only shows the 
 <img width="742" height="314" alt="image" src="https://github.com/user-attachments/assets/a400df44-3614-4c14-82fb-1431a490a399" /> 
 <br>
 <br>
-**Analyze-Logon-Duration.cs**
+<b>Analyze-Logon-Duration.cs</b>
+<br>
 Retrofitted from the ControlUp Analyze Logon Duration: https://www.controlup.com/script-library-posts/analyze-logon-duration/
 Allows for the logon process to be broken down and imported into LE timers. Due limitations of how the script collects the logon process, it must be ran as an administrator during the test. The results look something like this:
 
