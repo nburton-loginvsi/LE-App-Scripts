@@ -6,6 +6,7 @@ Allows for individual GPOs to be reported during a test since LE only shows the 
 
 <img width="742" height="314" alt="image" src="https://github.com/user-attachments/assets/a400df44-3614-4c14-82fb-1431a490a399" /> 
 <br>
+---
 <br>
 <b>Analyze-Logon-Duration.cs</b>
 <br>
@@ -13,3 +14,8 @@ Retrofitted from the ControlUp Analyze Logon Duration: https://www.controlup.com
 Allows for the logon process to be broken down and imported into LE timers. Due limitations of how the script collects the logon process, it must be ran as an administrator during the test. The results look something like this:
 
 <img width="1047" height="725" alt="image" src="https://github.com/user-attachments/assets/22fc0e8c-738b-4d92-96ec-509aada95aba" />
+
+---
+
+**OTPSampleCombined.cs**
+Used for generation of TOTPs without having to call an external PS script. 
