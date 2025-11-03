@@ -8,7 +8,7 @@ Allows for individual GPOs to be reported during a test since LE only shows the 
 
 ---
 
-<b>Analyze-Logon-Duration.cs</b>
+<b>Analyze-Logon-Duration.cs</b>\
 Retrofitted from the ControlUp Analyze Logon Duration: https://www.controlup.com/script-library-posts/analyze-logon-duration/
 Allows for the logon process to be broken down and imported into LE timers. Due limitations of how the script collects the logon process, it must be ran as an administrator during the test. The results look something like this:
 
@@ -16,5 +16,5 @@ Allows for the logon process to be broken down and imported into LE timers. Due 
 
 ---
 
-**OTPSampleCombined.cs**
+**OTPSampleCombined.cs**\
 Used for generation of TOTPs without having to call an external PS script. Simply set the Base32Secret string on line 16 and the script stores it in a string called "code" after using the Totp.Generate function, which you can then use for your MFA prompts. Make sure to use the Totp.generate function right before authentication. Doing it too early may result in an invalid TOTP. 
